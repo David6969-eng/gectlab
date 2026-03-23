@@ -15,6 +15,8 @@ public class LibraryViewer extends JFrame implements ActionListener {
         setSize(500,400);
         setLayout(new FlowLayout());
 
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
         add(new JLabel("Enter Issue ID:"));
 
         issueField = new JTextField(10);
